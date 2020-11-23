@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D9F2E26256B9CEE00D20E8D /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9F2E25256B9CEE00D20E8D /* WebKit.framework */; };
+		8D9F2E2B256B9E9300D20E8D /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F2E2A256B9E9300D20E8D /* AnnouncementViewController.swift */; };
 		8DB9850C256516DE007B31A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9850B256516DE007B31A9 /* AppDelegate.swift */; };
 		8DB9850E256516DE007B31A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9850D256516DE007B31A9 /* SceneDelegate.swift */; };
 		8DB98510256516DE007B31A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB9850F256516DE007B31A9 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D9F2E25256B9CEE00D20E8D /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		8D9F2E2A256B9E9300D20E8D /* AnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; };
 		8DB98508256516DE007B31A9 /* groundBnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groundBnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DB9850B256516DE007B31A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DB9850D256516DE007B31A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +35,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9F2E26256B9CEE00D20E8D /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D9F2E24256B9CEE00D20E8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F2E25256B9CEE00D20E8D /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8DB984FF256516DE007B31A9 = {
 			isa = PBXGroup;
 			children = (
 				8DB9850A256516DE007B31A9 /* groundBnb */,
 				8DB98509256516DE007B31A9 /* Products */,
+				8D9F2E24256B9CEE00D20E8D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +74,7 @@
 				8DB9850D256516DE007B31A9 /* SceneDelegate.swift */,
 				8DB9850F256516DE007B31A9 /* ViewController.swift */,
 				8DB98511256516DE007B31A9 /* Main.storyboard */,
+				8D9F2E2A256B9E9300D20E8D /* AnnouncementViewController.swift */,
 				8DB98514256516E2007B31A9 /* Assets.xcassets */,
 				8DB98516256516E2007B31A9 /* LaunchScreen.storyboard */,
 				8DB98519256516E2007B31A9 /* Info.plist */,
@@ -139,6 +154,7 @@
 			files = (
 				8DB98510256516DE007B31A9 /* ViewController.swift in Sources */,
 				8DB9850C256516DE007B31A9 /* AppDelegate.swift in Sources */,
+				8D9F2E2B256B9E9300D20E8D /* AnnouncementViewController.swift in Sources */,
 				8DB9850E256516DE007B31A9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
